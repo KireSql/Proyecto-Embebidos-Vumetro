@@ -1,2 +1,2 @@
 # Proyecto-Embebidos-Vumetro
-Proyecto de sistemas embebidos P107 VU metro
+El proyecto presentado consiste en un dispositivo que reacciona a la música y según el volumen leído activa un patrón de luces led personalizable.
