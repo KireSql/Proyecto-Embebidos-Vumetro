@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-04T17:55:54.071Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="oN60xC5vVAwRp2ZxiOb1" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-04T17:58:45.115Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="gT_Oef6g4spMCyvidPE6" version="20.0.3" type="github">
   <diagram id="q10WGYkG1E9Wa4QXQbt4" name="Page-1">
-    <mxGraphModel dx="1053" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="700" math="0" shadow="0">
+    <mxGraphModel dx="1237" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="700" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -107,9 +107,6 @@
         <mxCell id="0_BQlghofN6PK04X-435-450" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.martechforum.com/wp-content/uploads/2015/08/AmazonDynamoDB.png;" vertex="1" parent="1">
           <mxGeometry x="600" y="80" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="0_BQlghofN6PK04X-435-426" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.pikpng.com/pngl/m/73-732011_aws-cognito-logo-png-transparent-aws-cognito-icon.png;" vertex="1" parent="1">
-          <mxGeometry x="530" y="85" width="45.27" height="55" as="geometry" />
-        </mxCell>
         <mxCell id="0_BQlghofN6PK04X-435-451" value="DynamoDB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="604.6999999999999" y="140" width="60.61" height="30" as="geometry" />
         </mxCell>
@@ -196,7 +193,7 @@
             <mxPoint x="1000" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0_BQlghofN6PK04X-435-484" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="0_BQlghofN6PK04X-435-472" target="0_BQlghofN6PK04X-435-478">
+        <mxCell id="0_BQlghofN6PK04X-435-484" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="0_BQlghofN6PK04X-435-472" target="0_BQlghofN6PK04X-435-493">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="860.61" y="247.75" as="sourcePoint" />
             <mxPoint x="1000.61" y="182.25" as="targetPoint" />
@@ -224,6 +221,21 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1057.15" y="105.5" as="sourcePoint" />
             <mxPoint x="1190" y="166.99219108896182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0_BQlghofN6PK04X-435-494" value="Amazon Cognito (Autorización)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="903.4399999999999" y="270" width="60.61" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0_BQlghofN6PK04X-435-493" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.worldvectorlogo.com/logos/aws-cognito.svg;" vertex="1" parent="1">
+          <mxGeometry x="910" y="200" width="47.49" height="55.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0_BQlghofN6PK04X-435-426" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.pikpng.com/pngl/m/73-732011_aws-cognito-logo-png-transparent-aws-cognito-icon.png;" vertex="1" parent="1">
+          <mxGeometry x="530" y="85" width="45.27" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="0_BQlghofN6PK04X-435-495" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" target="0_BQlghofN6PK04X-435-478">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="957.49" y="238.31" as="sourcePoint" />
+            <mxPoint x="1007.49" y="261.6850000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
